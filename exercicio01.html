@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maior valor fornecido</title>
+    <title>Document</title>
 </head>
 <body>
-    <p>1 Crie um programa JavaScript que peça para o usuário informar dois valores.
-         O programa deve exibir uma mensagem
-          informando se o primeiro valor fornecido pelo 
-          usuário é maior que o segundo.</p>
+    <p>Crie um programa JavaScript que peça para o usuário informar 
+        dois valores. O programa deve exibir uma mensagem informando
+         se o primeiro valor fornecido pelo usuário é maior que o segundo.</p>
 </body>
 <script type="text/JavaScript">
-let valorA = prompt("Primeiro valor: ");
-valorA = parsefloat(valorA);
 
+    let primeiro_valor = parseFloat(prompt("Informe o primeiro valor:"));
+
+
+let segundo_valor = parseFloat(prompt("Informe o segundo valor:"));
+
+
+if (primriro_valor > segundo_valor) {
+    alert('O primeiro valor fornecido é maior' + primeiro_valor + '>' + segundo_valor);
+}
+else
+{
+    alert('O segundo valor fornecido é maior' + segundo_valor+ '>' + primriro_valor);
+}
 </script>
 </html>
