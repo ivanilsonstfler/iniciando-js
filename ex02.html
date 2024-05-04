@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>2 O sistema de avaliação de determinada disciplina, é composto por três provas.
-         A primeira prova tem peso 2, a segunda tem peso 3 e a terceira tem peso 5.
-          Faça um algoritmo para calcular a média final de um aluno desta disciplina. 
-          Mostre “Aprovado!” se a média for maior ou igual a 7,0 ou “Reprovado!”
-           caso contrário.</p>
-</body>
-<script type="text/JavaScript">
-var nota1 = parseFloat(prompt("Digite a nota primeira prova (Peso 2): "));
-var nota2 = parseFloat(prompt("Digite a nota da segunda prova (Peso 3): "));
-var nota3 = parseFloat(prompt("Digite a nota da terceira prova (Peso 5):"));
-var media
-media = (nota1 * 2 + nota2 * 3 + nota3 * 5) /10
-if ( media >= 7.0) {
-    alert('Aprovado');
-} else
-{
-    alert('Reprovado!');
-}
-</script>
+  </head>
+
+  <body>
+    <p>
+      2 O sistema de avaliação de determinada disciplina, é composto por três
+      provas. A primeira prova tem peso 2, a segunda tem peso 3 e a terceira tem
+      peso 5. Faça um algoritmo para calcular a média final de um aluno desta
+      disciplina. Mostre “Aprovado!” se a média for maior ou igual a 7,0 ou
+      “Reprovado!” caso contrário.
+    </p>
+  </body>
+  <script type="text/JavaScript">
+    var nota1 = parseFloat(prompt("Digite a nota primeira prova (Peso 2): "));
+    var nota2 = parseFloat(prompt("Digite a nota da segunda prova (Peso 3): "));
+    var nota3 = parseFloat(prompt("Digite a nota da terceira prova (Peso 5):"));
+    var media
+    media = (nota1 * 2 + nota2 * 3 + nota3 * 5) /10
+    if ( media >= 7.0) {
+        alert('Aprovado');
+    } else
+    {
+        alert('Reprovado!');
+    }
+  </script>
 </html>
